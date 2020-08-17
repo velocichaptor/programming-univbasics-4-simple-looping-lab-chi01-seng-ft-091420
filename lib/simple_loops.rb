@@ -9,7 +9,7 @@ def loop_message_five_times(string)
 end
 
 def loop_message_n_times(string, integer)
-  10.times {puts string}
+  integer.times {puts string}
 end
 
 def output_array(array)
